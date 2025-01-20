@@ -24,7 +24,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className='bg-gradient-to-br from-blue-400 to-cyan-500 text-white py-16' id='services'>
+    <div className='bg-gradient-to-br from-blue-400 to-cyan-500 text-white py-16' id='projects'>
         <div className='container space-y-5 mx-auto px-8 md:px-16 lg:px-24'>
             <h2 className='text-4xl text-center font-bold mb-12 bg-gradient-to-tr from-blue-700 to-cyan-500 rounded-full py-3'>Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
