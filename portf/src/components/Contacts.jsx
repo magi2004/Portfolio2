@@ -3,7 +3,7 @@ import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
 
 const Contacts = () => {
   return (
-    <div className='bg-gradient-to-br from-blue-400 to-cyan-500 text-white py-16' id='contact'>
+    <div className='bg-gradient-to-br from-blue-400 to-cyan-500 text-white py-16' id='contacts'>
         <div className='container mx-auto px-8 md:px-16 lg:px-24'>
             <h2 className='text-4xl font-bold text-center mb-12 bg-gradient-to-tr from-blue-700 to-cyan-500 rounded-full py-3'>Contact Me</h2>
             <div className='flex flex-col md:flex-row items-center md:space-x-12'>
