@@ -3,7 +3,7 @@ import Homejpg from '../assets/Me.jpg'
 
 const Home = () => {
   return (
-    <div className='bg-gradient-to-br from-blue-400 to-cyan-500 text-white text-center py-16'>
+    <div className='bg-gradient-to-br from-blue-400 to-cyan-500 text-white text-center py-16' id='home'>
         <img src={Homejpg} alt='' className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-200 hover:scale-125'/>
         <h1 className='text-3xl md:text-4xl font-bold'>
             I'm {""}
