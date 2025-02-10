@@ -1,5 +1,4 @@
-import React from 'react'
-import { FaGithub, FaGithubAlt, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
                 <div className='flex-1 mb-4 md:mb-0'>
                 <h3 className='mr-4'>Magibalan S</h3>
                 <p>
-                    I'm a full stack developer with experience in building web applications using modern technologies like React, Nodejs, Express, MongoDB, etc.
+                    I am a full stack developer with experience in building web applications using modern technologies like React, Nodejs, Express, MongoDB, etc.
                 </p>
             </div>
             <div>

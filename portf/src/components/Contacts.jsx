@@ -1,6 +1,4 @@
-import React from 'react'
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
-
 const Contacts = () => {
   return (
     <div className='bg-gradient-to-br from-blue-400 to-cyan-500 text-white py-16' id='contacts'>
@@ -8,7 +6,7 @@ const Contacts = () => {
             <h2 className='text-4xl font-bold text-center mb-12 bg-gradient-to-tr from-blue-700 to-cyan-500 rounded-full py-3'>Contact Me</h2>
             <div className='flex flex-col md:flex-row items-center md:space-x-12'>
                 <div className='flex-1'>
-                <h3 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-orange-400'>Lets's Connect</h3>
+                <h3 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-orange-400'> Let's Connect</h3>
                 <p>I'm open to discuss web development projects or partnership opportunities</p>
                 <div className='mb-4 mt-4' >
                     <FaEnvelope className='inline-block text-yellow-400 mr-2'></FaEnvelope>

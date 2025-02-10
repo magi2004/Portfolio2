@@ -1,4 +1,3 @@
-import React from 'react'
 import Homejpg from '../assets/Me.jpg' 
 
 const Home = () => {
@@ -14,7 +13,7 @@ const Home = () => {
             I'm a full stack developer with experience in building web applications using modern technologies like React, Nodejs, Express, MongoDB, etc. 
         </p>
         <div className='mt-8 space-x-4'>
-        <button className='bg-gradient-to-r from-blue-700 to-cyan-500 rounded-3xl border px-6 py-2 hidden md:inline transform transition-transform duration-200 hover:scale-125 '>Contact me</button>
+        <button className='bg-gradient-to-r from-blue-700 to-cyan-500 rounded-3xl border px-6 py-2 hidden md:inline transform transition-transform duration-200 hover:scale-125 ' onClick={() => window.location.href = '#contacts'} >Contact me</button>
         <button className='bg-gradient-to-r from-blue-700 to-cyan-500 rounded-3xl border px-6 py-2 hidden md:inline transform transition-transform duration-200 hover:scale-125 '>Resume</button>
         </div>
     </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 
 const services = [
     {
@@ -30,7 +29,7 @@ const Services = () => {
                 <div key={service.id} className='bg-gradient-to-tr from-blue-700 to-cyan-500 p-8 rounded-xl transform transition-transform duration-200 hover:scale-105'>
                     <h3 className='text-2xl font-bold mb-4'>{service.title}</h3>
                     <p>{service.description}</p>
-                    <a href={service.href} target="_blank" rel="noopener noreferrer"  className='text-yellow-400 hover:text-yellow-300'>Learn More</a>
+                    <a href={service.href} target="_blank" rel="noopener noreferrer"  className='text-yellow-400 hover:text-yellow-300' onClick={() => window.location.href='https://github.com/magi2004'}>Learn More</a>
                 </div>
             ))}
             </div>

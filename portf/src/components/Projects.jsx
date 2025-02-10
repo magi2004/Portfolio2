@@ -1,4 +1,3 @@
-import React from 'react'
 import ProjectImage from '../assets/logo.jpg'
 
 const projects = [
@@ -6,19 +5,22 @@ const projects = [
         title: 'Portfolio',
         technology: 'MERN Stack, Tailwind CSS',
         description: 'This is a project description',
-        image: ProjectImage
+        image: ProjectImage,
+        link: 'https://github.com/magi2004/Portfolio2'
     },
     {
         title: 'Canteen management system',
         technology: 'MERN Stack, Tailwind CSS',
         description: 'This is a project description',
-        image: ProjectImage
+        image: ProjectImage,
+        link:''
     },
     {
         title: 'TBA',
         technology: 'MERN Stack, Tailwind CSS',
         description: 'This is a project description',
-        image: ProjectImage
+        image: ProjectImage,
+        link:''
     }
 ]
 
@@ -34,7 +36,7 @@ const Projects = () => {
                     <p>{projects.description}</p>
                     <p>Technologies used: {projects.technology}</p>
                     <img src={projects.image} alt='' className='w-48 h-48 rounded-3xl m-3 object-cover'/>
-                    <a href='#' className='inline-block px-4 py-2 rounded-full bg-gradient-to-bl from-blue-700 to-cyan-500 text-orange-400 font-bold hover:text-white'>Github</a>
+                    <a href={projects.link} className='inline-block px-4 py-2 rounded-full bg-gradient-to-bl from-blue-700 to-cyan-500 text-orange-400 font-bold hover:text-white'>Github</a>
                 </div>
 
             ))}
