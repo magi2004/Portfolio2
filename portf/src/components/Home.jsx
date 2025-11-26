@@ -13,8 +13,8 @@ const Home = () => {
             I'm a full stack developer with experience in building web applications using modern technologies like React, Nodejs, Express, MongoDB, etc. 
         </p>
         <div className='mt-8 space-x-4'>
-            <button className='bg-gradient-to-r from-blue-800 to-blue-600 rounded-2xl border border-yellow-400 px-6 py-2 hidden md:inline text-yellow-200 font-semibold shadow-md transform transition-transform duration-200 hover:scale-110' onClick={() => window.location.href = '#contacts'}>Contact me</button>
-            <button className='bg-gradient-to-r from-gray-800 to-gray-600 rounded-2xl border border-blue-400 px-6 py-2 hidden md:inline text-blue-200 font-semibold shadow-md transform transition-transform duration-200 hover:scale-110'>Resume</button>
+            <button className='bg-gradient-to-r from-blue-800 to-blue-600 rounded-2xl border border-yellow-400 px-6 py-2 hidden md:inline text-yellow-400 font-semibold shadow-md transform transition-transform duration-200 hover:scale-110' onClick={() => window.location.href = '#contacts'}>Contact me</button>
+            <button className='bg-gradient-to-r from-blue-800 to-blue-600 rounded-2xl border border-yellow-400 px-6 py-2 hidden md:inline text-yellow-400 font-semibold shadow-md transform transition-transform duration-200 hover:scale-110'>Resume</button>
         </div>
     </div>
   )

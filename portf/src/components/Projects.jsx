@@ -1,4 +1,4 @@
-import ProjectImage from '../assets/logo.jpg'
+import ProjectImage from '../assets/logo.png'
 
 const projects = [
     {
@@ -6,7 +6,7 @@ const projects = [
         technology: 'MERN Stack, Tailwind CSS',
         description: ' Developed by creating a stack for efficient online ordering, menu management, and payment processing with a user-friendly interface for customers and admins, along with real-time updates and database integration.',
         image: ProjectImage,
-        link:''
+        link:'https://github.com/magi2004/Canteen'
     },
     {
         title: 'Portfolio',
@@ -20,7 +20,7 @@ const projects = [
         technology: 'Python, Tkinter',
         description: ' A desktop app that combines hydration and eye care reminders with a todo list.  Users get periodic health notifications and can schedule tasks with alerts. Features a modern GUI, system tray icon, and saves user data between sessions.',
         image: ProjectImage,
-        link:''
+        link:'https://github.com/magi2004/HydrationReminder'
     }
 ]
 
@@ -33,9 +33,9 @@ const Projects = () => {
             {projects.map(projects => (
                 <div key={projects.id} className='bg-gradient-to-br from-blue-700 via-gray-800 to-gray-700 p-8 rounded-xl transform transition-transform duration-100 hover:scale-110'>
                     <h3 className='text-2xl text-yellow-400 font-bold mb-4'>{projects.title}</h3>
-                    <p>{projects.description}</p>
-                    <p>Technologies used: {projects.technology}</p>
                     <img src={projects.image} alt='' className='w-48 h-48 rounded-2xl m-3 object-cover'/>
+                    <p className= 'font-semibold'>{projects.description}</p>
+                    <p className = 'font-bold text-xl text-purple-300 rounded-2xl my-3'>Technologies used: {projects.technology}</p>
                     <a href={projects.link} className='inline-block px-4 py-2 rounded-full bg-gradient-to-bl from-gray-800 to-gray-500 text-white font-bold hover:text-yellow-400'>Github</a>
                 </div>
 
