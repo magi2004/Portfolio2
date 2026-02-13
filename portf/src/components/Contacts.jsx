@@ -38,8 +38,8 @@ const Contacts = () => {
                     </form>
                 </div>
             </div>
-            </div>
-            </div>
+        </div>
+    </div>
   )
 }
 
